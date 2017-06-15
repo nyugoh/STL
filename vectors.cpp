@@ -13,7 +13,8 @@ int main(){
     cout<<"Max - Size ::"<<v.max_size()<<endl;
     cout<<"Element at the front ::"<<v.front()<<endl;
     cout<<"Element at the end ::"<<v.back()<<endl;
-
+    
+    //Use an iterator to go thru 
     for(vector<int>:: iterator it = v.begin(); it<v.end(); it++)
         std::cout << " " << *it;
     cout<<endl;
